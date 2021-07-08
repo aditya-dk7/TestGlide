@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         loadNet();
     }
     private void loadNet() {
-        Uri uri = Uri.parse("https://raw.githubusercontent.com/aditya-dk7/temp/master/1625492313painted-flag-of-Catalonia.svg");
+        Uri uri = Uri.parse("https://raw.githubusercontent.com/aditya-dk7/TestGlide/master/1625492313painted-flag-of-Catalonia.svg");
         requestBuilder.load(uri).into(image);
     }
 }
